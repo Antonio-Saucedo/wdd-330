@@ -1,4 +1,4 @@
-const URL = "https://antonio-saucedo.github.io/wdd330/json/project-list.json";
+const URL = "https://antonio-saucedo.github.io/wdd-330/json/project-list.json";
 
 const block1 = document.getElementById("block1");
 const block2 = document.getElementById("block2");
