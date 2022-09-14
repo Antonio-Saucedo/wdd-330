@@ -33,9 +33,11 @@ function buildProjectList(info) {
 async function getProjects() {
   let response = await fetch(URL);
   if (response.ok) {
-    let data = await responce.json();
+    let data = await response.json();
     buildProjectList(data);
   } else {
-    throw Error(respose.statusText);
+    throw Error(response.statusText);
   }
 }
+
+getProjects();
