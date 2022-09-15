@@ -1,54 +1,48 @@
 {
     "projects": [
         {
-            "block1": [
-                {
-                    "lesson": "lesson 1",
-                    "link": ""
-                },
-                {
-                    "lesson": "lesson 2",
-                    "link": ""
-                },
-                {
-                    "lesson": "lesson 3",
-                    "link": ""
-                },
-                {
-                    "lesson": "lesson 4",
-                    "link": ""
-                },
-                {
-                    "lesson": "lesson 5",
-                    "link": ""
-                },
-                {
-                    "lesson": "lesson 6",
-                    "link": ""
-                }
-            ],
-            "block2": [
-                {
-                    "lesson": "lesson 7",
-                    "link": ""
-                },
-                {
-                    "lesson": "lesson 8",
-                    "link": ""
-                },
-                {
-                    "lesson": "lesson 9",
-                    "link": ""
-                },
-                {
-                    "lesson": "lesson 10",
-                    "link": ""
-                },
-                {
-                    "lesson": "Final Project",
-                    "link": ""
-                }
-            ]
+            "lesson": "lesson 1",
+            "link": ""
+        },
+        {
+            "lesson": "lesson 2",
+            "link": ""
+        },
+        {
+            "lesson": "lesson 3",
+            "link": ""
+        },
+        {
+            "lesson": "lesson 4",
+            "link": ""
+        },
+        {
+            "lesson": "lesson 5",
+            "link": ""
+        },
+        {
+            "lesson": "lesson 6",
+            "link": ""
+        },
+        {
+            "lesson": "lesson 7",
+            "link": ""
+        },
+        {
+            "lesson": "lesson 8",
+            "link": ""
+        },
+        {
+            "lesson": "lesson 9",
+            "link": ""
+        },
+        {
+            "lesson": "lesson 10",
+            "link": ""
+        },
+        {
+            "lesson": "Final Project",
+            "link": ""
         }
     ]
 }
