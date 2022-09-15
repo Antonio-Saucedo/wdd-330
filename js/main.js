@@ -14,7 +14,7 @@ function buildProjectList(info) {
     a.innerHTML = `${project.lesson}`;
 
     li.appendChild(a);
-    if (num < 6) {
+    if (num < 7) {
       displayBlock1.append(li);
     } else {
       displayBlock2.append(li);

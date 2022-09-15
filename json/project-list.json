@@ -2,47 +2,51 @@
     "projects": [
         {
             "lesson": "lesson 1",
-            "link": ""
+            "link": "week1/index.html"
         },
         {
             "lesson": "lesson 2",
-            "link": ""
+            "link": "week2/index.html"
         },
         {
             "lesson": "lesson 3",
-            "link": ""
+            "link": "week3/index.html"
         },
         {
             "lesson": "lesson 4",
-            "link": ""
+            "link": "week4/index.html"
         },
         {
             "lesson": "lesson 5",
-            "link": ""
+            "link": "week5/index.html"
         },
         {
             "lesson": "lesson 6",
-            "link": ""
+            "link": "week6/index.html"
         },
         {
             "lesson": "lesson 7",
-            "link": ""
+            "link": "week7/index.html"
         },
         {
             "lesson": "lesson 8",
-            "link": ""
+            "link": "week8/index.html"
         },
         {
             "lesson": "lesson 9",
-            "link": ""
+            "link": "week9/index.html"
         },
         {
             "lesson": "lesson 10",
-            "link": ""
+            "link": "week10/index.html"
         },
         {
-            "lesson": "Final Project",
-            "link": ""
+            "lesson": "lesson 11",
+            "link": "week11/index.html"
+        },
+        {
+            "lesson": "lesson 12",
+            "link": "week11/index.html"
         }
     ]
 }
