@@ -11,10 +11,10 @@ function buildProjectList(info) {
     let a = document.createElement("a");
 
     a.setAttribute("href", `${project.link}`);
-    a.innerHTML = `${project.lesson}`;
+    a.innerHTML = `${project.week}`;
 
     li.appendChild(a);
-    if (num < 7) {
+    if (num < data.length / 2 + 1) {
       displayBlock1.append(li);
     } else {
       displayBlock2.append(li);
