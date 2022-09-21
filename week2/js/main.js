@@ -2,7 +2,7 @@
 document.getElementById("prompt").addEventListener("click", () => {
   const question = "what is Superman's real name?";
   const answer = prompt(question);
-  if (answer == "") {
+  if (answer === "") {
     alert("You did not enter an answer");
   } else {
     alert(`You answered ${answer}`);
