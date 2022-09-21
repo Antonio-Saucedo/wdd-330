@@ -38,6 +38,16 @@
   ol li {
     list-style: square;
   }
+
+  /* Class Selector */
+  .notes main p,
+  .long-notes main p {
+    padding: 15px 32px 15px 32px;
+  }
+
+  .long-notes {
+    height: 100%;
+  }
 }
 
 /*Ensure the top of the page displays correctly when screen is sideways*/
