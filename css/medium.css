@@ -40,11 +40,6 @@
   }
 
   /* Class Selector */
-  .notes main p,
-  .long-notes main p {
-    padding: 15px 32px 15px 32px;
-  }
-
   .long-notes {
     height: 100%;
   }

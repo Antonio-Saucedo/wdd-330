@@ -108,3 +108,9 @@ h3 {
 p {
   font-size: 15px;
 }
+
+/* Class Selector */
+.notes main p,
+.long-notes main p {
+  padding: 15px 32px 15px 32px;
+}
