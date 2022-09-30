@@ -1,5 +1,5 @@
 // Quiz Ninja Project 2
-document.getElementById("prompt").addEventListener("click", () => {
+document.getElementById("game2").addEventListener("click", () => {
   const question = "what is Superman's real name?";
   const answer = prompt(question);
   if (answer === "") {
@@ -10,7 +10,7 @@ document.getElementById("prompt").addEventListener("click", () => {
 });
 
 // Quiz Ninja Project 3
-document.getElementById("game").addEventListener("click", () => {
+document.getElementById("game3").addEventListener("click", () => {
   const quiz = [
     ["What is Superman's real name?", "Clark Kent"],
     ["What is Wonder Woman's real name?", "Diana Prince"],
@@ -90,6 +90,6 @@ function start(quiz) {
   }
 }
 
-document.getElementById("gameRev").addEventListener("click", function () {
+document.getElementById("game4").addEventListener("click", function () {
   start(quiz);
 });

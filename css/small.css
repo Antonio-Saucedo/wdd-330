@@ -58,6 +58,10 @@ ol li {
   list-style-type: circle;
 }
 
+li:hover {
+  cursor: pointer;
+}
+
 main ol {
   padding-left: 50px;
 }
