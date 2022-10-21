@@ -6,7 +6,6 @@
 
 body,
 ul,
-#add-container,
 input[type="checkbox"] {
   display: flex;
 }
@@ -16,15 +15,7 @@ body {
   width: 100%;
   flex-direction: column;
   align-items: center;
-}
-
-table,
-tr,
-input[type="checkbox"],
-#container-footer,
-#add-button {
-  border: 1px solid #000;
-  border-spacing: 0;
+  background: linear-gradient(0deg, purple, white) fixed;
 }
 
 table,
@@ -34,33 +25,55 @@ table,
 }
 
 table {
-  table-layout: fixed;
   border-collapse: collapse;
+  border-spacing: 0;
 }
 
-td {
-    padding: 0 5px;
+tr,
+input[type="checkbox"],
+#container-footer,
+#add-button {
+  border: 1px solid #000;
 }
 
-td:nth-child(1) {
-    width: 30px;
+tr,
+#add-container {
+  display: grid;
 }
 
-td:nth-child(2) {
-  width: 85%;
+tr {
+  grid-template-columns: 36px 1fr 36px;
+}
+
+tr input,
+tr label {
+  grid-row: 1;
+}
+
+tr :nth-child(2) {
   overflow: hidden;
+  margin: auto 0;
 }
 
-td:nth-child(3) {
+tr :nth-child(3),
+input[type="checkbox"],
+#add-button,
+#all,
+#active,
+#complete {
+  cursor: pointer;
+}
+
+tr :nth-child(3),
+ul {
+  margin: auto;
+}
+
+tr :nth-child(3) {
   font-size: xx-large;
 }
 
-tr:last-child(1) td:nth-child(1) {
-    width: 30px;
-}
-
 ul {
-  margin: auto;
   width: 80%;
   list-style: none;
   justify-content: space-between;
@@ -79,7 +92,6 @@ li {
 input[type="checkbox"] {
   background-color: transparent;
   appearance: none;
-  cursor: pointer;
   justify-content: center;
   width: 30px;
   height: 30px;
@@ -96,9 +108,15 @@ input[type="checkbox"]:after {
   margin-top: -1px;
 }
 
+#all {
+  border: 1px solid #000;
+}
+
 #add-container {
+  height: 60px;
   position: fixed;
-  bottom: 10px;
+  bottom: 20px;
+  grid-template-columns: 1fr 40px;
 }
 
 #add-container p {
@@ -112,13 +130,29 @@ input[type="checkbox"]:after {
 }
 
 #task-input {
-  width: 99%;
-  margin-right: 1%;
+  width: 98%;
+  height: 40px;
 }
 
 #add-button {
   width: 35px;
+  height: fit-content;
   background-color: #fff;
   font-size: 25px;
   font-weight: 600;
+  justify-self: end;
+  margin-top: 18px;
+}
+
+/* Class Selector */
+.complete {
+  text-decoration: line-through;
+}
+
+.hidden {
+  display: none;
+}
+
+.light {
+  color: #fff;
 }
