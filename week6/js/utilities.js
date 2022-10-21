@@ -47,11 +47,14 @@ function completeTask(id) {
     content: item.textContent,
     completed: complete,
   };
+  taskList[id]["value"]["completed"] = complete;
   localStorage.setItem(`task ${id}`, JSON.stringify(update));
   updateRemaining();
 }
 
 function deleteTaskItem(id) {
+  console.log(id);
+  console.log(taskList[id]["value"]["completed"] == "false");
   const task = `task ${id}`;
   if (taskList[id]["value"]["completed"] == "false") {
     active -= 1;
