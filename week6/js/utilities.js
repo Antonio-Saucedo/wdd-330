@@ -112,6 +112,15 @@ taskList.forEach((task) => {
 updateRemaining();
 
 add.addEventListener("click", addTaskItem);
+showAll.addEventListener("click", () => {
+  show("all")
+});
+showActive.addEventListener("click", () => {
+  show("active");
+});
+showComplete.addEventListener("click", () => {
+  show("complete");
+});
 
 taskInput.addEventListener("keyup", function (e) {
   if (e.keyCode === 13) {
