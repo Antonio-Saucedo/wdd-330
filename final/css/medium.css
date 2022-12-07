@@ -1,0 +1,13 @@
+@media (min-width: 34.375em) {
+  header,
+  main,
+  footer {
+    max-width: 900px;
+  }
+
+  #infoList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 10px;
+  }
+}
