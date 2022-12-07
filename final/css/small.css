@@ -55,6 +55,12 @@ p {
   font-family: "Montserrat", Arial, Verdana, Sans-serif;
 }
 
+h1,
+h2,
+h3 a {
+  color: #acacac;
+}
+
 img,
 #mainNav li,
 #mainNav li a,
