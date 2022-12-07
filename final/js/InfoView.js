@@ -91,7 +91,7 @@ class InfoView {
             }</p>`;
           }
           container += `<p>Status: ${info["status"]}</p>`;
-          container += `<p>Wikipedia: ${info["wikipedia"]}</p>`;
+          container += `<p><a href="${info["wikipedia"]}">Wikipedia</a></p>`;
           container += `<p>Image: <a href="${info["image"]}" target="_blank" rel="noopener noreferrer">${info["name"]}</a></p>`;
           return container;
         })
@@ -151,7 +151,7 @@ class InfoView {
           container += `<p>Return Payload Mass(Lb): ${info["return_payload_mass"]["lb"]}</p>`;
           container += `<p>Return Payload Volume(Cubic Feet): ${info["return_payload_vol"]["cubic_feet"]}</p>`;
           container += `<p>Return Payload Volume(Cubic Meters): ${info["return_payload_vol"]["cubic_meters"]}</p>`;
-          container += `<p>Wikipedia: ${info["wikipedia"]}</p>`;
+          container += `<p><a href="${info["wikipedia"]}">Wikipedia</a></p>`;
           // console.log(Object.keys(info["flickr_images"]));
           for (const key in Object.keys(info["flickr_images"])) {
             if (info["flickr_images"][key].includes("imgur")) {
@@ -207,7 +207,7 @@ class InfoView {
             }</p>`;
           }
           container += `<p>Details: ${info["details"]}</p>`;
-          container += `<p>Wikipedia: ${info["wikipedia"]}</p>`;
+          container += `<p><a href="${info["wikipedia"]}">Wikipedia</a></p>`;
           if (info["images"]["large"][0].includes("imgur")) {
             container += `<p>Image: <a href="${info["images"]["large"][0]}" target="_blank" rel="noopener noreferrer">${info["name"]}</a></p>`;
           } else {
@@ -309,7 +309,7 @@ class InfoView {
           container += `<p class="tab">Reusable: ${info["second_stage"]["reusable"]}</p>`;
           container += `<p>Active: ${info["active"]}</p>`;
           container += `<p>Description: ${info["description"]}</p>`;
-          container += `<p>Wikipedia: ${info["wikipedia"]}</p>`;
+          container += `<p><a href="${info["wikipedia"]}">Wikipedia</a>></p>`;
           // console.log(Object.keys(info["flickr_images"]));
           for (const key in Object.keys(info["flickr_images"])) {
             if (info["flickr_images"][key].includes("imgur")) {
